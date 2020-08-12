@@ -9,7 +9,14 @@ namespace Apidemo.Controllers
     [ApiController]
     public class ApiControllers : ControllerBase
     {
-        private readonly MockApidemoRepo _repository = new MockApidemoRepo();
+
+        private readonly IApiRepo _repository;
+
+          public ApiControllers(IApiRepo repository)
+        {
+            _repository = repository;
+        }
+
         [HttpGet]
         public ActionResult <IEnumerable<Api>> GetAllCommands()
         {
