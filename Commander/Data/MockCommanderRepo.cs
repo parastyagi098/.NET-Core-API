@@ -4,20 +4,41 @@ using Commander.Models;
 namespace Commander.Data{
     public class MockCommanderRepo : ICommanderRepo
     {
-        public IEnumerable<Command> GetAppCommands()
+        public void CreateCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void DeleteCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
             {
-                new Command{Id=0, HowTo="Boil and egg", Line="Boil water", Platform="Kettle and Pan"},
-                new Command{Id=1, HowTo="Cut bread", Line="Get a knife", Platform="knife and chopping board"},
-                new Command{Id=2, HowTo="Make tea", Line="place teabag in cup", Platform="kettle & cup"}
+                new Command{Id=0, HowTo="Boil an egg", Line="Boil water", Platform="Kettle and Pan"},
+                new Command{Id=1, HowTo="Cut bread", Line="Get a knife", Platform="chopping board"},
+                new Command{Id=2, HowTo="Make cup of tea", Line="place teabag in cup", Platform="Kettle"}
             };
+
             return commands;
         }
 
-        public Command GetCommandsById(int id)
+        public Command GetCommandById(int id)
         {
-            return new Command{Id=0, HowTo="Boil an egg", Line="Boil water", Platform="Kettle and pan"};
+            return new Command{Id=0, HowTo="Boil an egg", Line="Boil water", Platform="Kettle and Pan"};
+        }
+
+        public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void UpdateCommand(Command command)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
