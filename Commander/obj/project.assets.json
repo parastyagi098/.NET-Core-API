@@ -5493,11 +5493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Commander\\Commander.csproj",
+      "projectUniqueName": "F:\\proj\\Commander\\Commander.csproj",
       "projectName": "Commander",
-      "projectPath": "E:\\Commander\\Commander.csproj",
+      "projectPath": "F:\\proj\\Commander\\Commander.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Commander\\obj\\",
+      "outputPath": "F:\\proj\\Commander\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

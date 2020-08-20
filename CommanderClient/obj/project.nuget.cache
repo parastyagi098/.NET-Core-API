@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sIsZnGT8RgLkU6RmumkloPNuME0QMNoncg03JTsDWyNRyWgJiVTNlnALO9WMxJgKyDLiYl8fe8S7+O7jwoG8eA==",
+  "dgSpecHash": "Yg7YYcIgnhfoyFIMqJt6q9DSgMBFmZv5CVSMBvMqcphM42nDrPiNJdabw4FF41dq40z+tU19m4Wcuddw6CZTXQ==",
   "success": true,
-  "projectFilePath": "E:\\CommanderClient\\CommanderClient.csproj",
+  "projectFilePath": "F:\\proj\\CommanderClient\\CommanderClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.7\\microsoft.extensions.configuration.3.1.7.nupkg.sha512",

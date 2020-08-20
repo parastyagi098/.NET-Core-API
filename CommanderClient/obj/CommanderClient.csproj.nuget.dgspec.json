@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CommanderClient\\CommanderClient.csproj": {}
+    "F:\\proj\\CommanderClient\\CommanderClient.csproj": {}
   },
   "projects": {
-    "E:\\CommanderClient\\CommanderClient.csproj": {
+    "F:\\proj\\CommanderClient\\CommanderClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CommanderClient\\CommanderClient.csproj",
+        "projectUniqueName": "F:\\proj\\CommanderClient\\CommanderClient.csproj",
         "projectName": "CommanderClient",
-        "projectPath": "E:\\CommanderClient\\CommanderClient.csproj",
+        "projectPath": "F:\\proj\\CommanderClient\\CommanderClient.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\CommanderClient\\obj\\",
+        "outputPath": "F:\\proj\\CommanderClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

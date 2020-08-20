@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.Identity.Client;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Linq;
 
 namespace CommanderClient
 {
@@ -40,7 +43,10 @@ namespace CommanderClient
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(ex.Message);
                 Console.ResetColor();
+
+            }
+            
             }
         }
     }
-}
+

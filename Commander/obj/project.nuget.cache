@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ob9WfUSo+dg7vzQ8tqprPgjtBwphjSOE1m03gnleF/m2P/RB9A6+RkvGN++BHFhENt5GPn0KVbcrSShXncLA9A==",
+  "dgSpecHash": "qj0TONjnLjznJ4dDYsqPnrO0uak8LgL+Vhm2P+9ZkkRbUMLeHw2stHKdwWUK8aQ45M4Z/9UmWViT97GvYe8v2g==",
   "success": true,
-  "projectFilePath": "E:\\Commander\\Commander.csproj",
+  "projectFilePath": "F:\\proj\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

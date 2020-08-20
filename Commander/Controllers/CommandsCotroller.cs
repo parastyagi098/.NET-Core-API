@@ -42,7 +42,7 @@ namespace Commander.Controllers
             return NotFound();
         }
 
-        [HttpPost]
+        [HttpPost("Authenticate")]
         public ActionResult <CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
         {
             var commandModel = _mapper.Map<Command>(commandCreateDto);

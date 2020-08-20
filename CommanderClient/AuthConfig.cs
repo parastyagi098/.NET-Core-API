@@ -13,7 +13,7 @@ namespace CommanderClient
         public string Authority 
         {
             get{
-                return string.Format(CultureInfo.InvariantCulture, Instance, TenantId);
+                return String.Format(CultureInfo.InvariantCulture, Instance, TenantId);
             }
         }
         public string ClientSecret { get; set; }
