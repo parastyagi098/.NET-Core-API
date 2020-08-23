@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AuthDemo1",
+    "\\AuthDemo1\\Controllers"
   ],
+  "SelectedNode": "\\AuthDemo1\\Controllers\\UserCred.cs",
   "PreviewInSolutionExplorer": false
 }
