@@ -1,1 +1,1 @@
-# .NET-Core-API
+# .NET-Core-API - AAD & DemoProj
